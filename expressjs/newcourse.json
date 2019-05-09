@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Learning aman jha",
+    "description": "In this course we learn Python.",
+    "id": 1,
+    "exercises": [
+      {
+        "courseId": "1",
+        "name": "learning api's",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "Hello! Yeh ek hint hai!!!",
+        "id": 1
+      },
+      {
+        "courseId": "1",
+        "name": "Introduction of html and css",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "---Hello! Yeh ek hint hai!!!",
+        "id": 2
+      },
+      {
+        "courseId": "1",
+        "name": "Introduction of html and css",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "---Hello! Yeh ek hint hai!!!",
+        "id": 3
+      },
+      {
+        "courseId": "1",
+        "name": "Introduction of html and cssssssssss",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "---Hello! Yeh ek hint hai!!!",
+        "id": 4
+      },
+      {
+        "courseId": "1",
+        "name": "Introduction of html and cssssssssss",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "---Hello! Yeh ek hint hai!!!",
+        "id": 5
+      },
+      {
+        "courseId": "1",
+        "name": "Introduction of html and cssssss123456788ssss",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "---Hello! Yeh ek hint hai!!!",
+        "id": 6
+      }
+    ]
+  },
+  {
+    "name": "Learning pratik",
+    "description": "In this course we learn about Nodejs express.",
+    "id": 2,
+    "exercises": [
+      {
+        "courseId": "2",
+        "name": "Introduction of anand and pratik",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "Hello! Yeh ek hint hai!!!",
+        "id": 1
+      },
+      {
+        "courseId": "2",
+        "name": "Introduction of css",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "Hello! Yeh ek hint hai!!!",
+        "id": 2
+      },
+      {
+        "courseId": "2",
+        "name": "Introduction of html and css in frontend",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "---Hello! Yeh ek hint hai!!!",
+        "id": 3
+      },
+      {
+        "id": 4,
+        "name": "postman 5",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "Hello! Yeh ek hint hai!!!"
+      }
+    ]
+  },
+  {
+    "name": "Learning Yogendra",
+    "description": "In this course we learn HTML and CSS.",
+    "id": 3,
+    "exercises": [
+      {
+        "courseId": "3",
+        "name": "Hello NavGurukul",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "Hello! Yeh ek hint hai!!!",
+        "id": 1
+      },
+      {
+        "courseId": "3",
+        "name": "Hello NavGurukul",
+        "content": "Iss exercise mein hum NavGurukul ke baare me sikhenge.",
+        "hint": "Hello! Yeh ek hint hai!!!",
+        "id": 2
+      }
+    ]
+  }
+]

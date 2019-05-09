@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "pratik",
+    "description": "mumbai"
+  },
+  {
+    "id": 2,
+    "name": "jagan",
+    "description": "Noida"
+  },
+  {
+    "id": 3,
+    "name": "aman",
+    "description": "delhi"
+  }
+]
