@@ -110,7 +110,7 @@ app.post("/courses/:ID/exercises",(req,res)=>{
     var content=req.body.content;
     var hint=req.body.hint;
     dic={}
-    var data=fs.readFileSync("/home/aman/Desktop/expressjs/newcourse.json");
+    var data=fs.readFileSync("/newcourse.json");
     var all_courses = JSON.parse(data);
     for(i of all_courses){
         var exercises=i["exercises"];
@@ -124,7 +124,7 @@ app.post("/courses/:ID/exercises",(req,res)=>{
             i.exercises.push(dic)
             console.log(all_courses);
             
-            fs.writeFile("/home/aman/Desktop/expressjs/newcourse.json", JSON.stringify(all_courses,null,2))
+            fs.writeFile("/newcourse.json", JSON.stringify(all_courses,null,2))
             return res.send(dic)
             console.log("running post:")
         }
@@ -141,7 +141,7 @@ app.get("/courses/:id1/exercise/:id2",(req,res)=>{
     var id2=req.params.id2;
     var alllist=[];
     console.log("your code is running...")
-    fs.readFile("/home/aman/Desktop/expressjs/newcourse.json",(err,data)=>{
+    fs.readFile("/newcourse.json",(err,data)=>{
         data=JSON.parse(data)
         for (var i of data){
             var exercise=i["exercises"]
@@ -164,7 +164,7 @@ app.put("/courses/:id1/exercise/:id2",(req,res)=>{
     var id2=req.params.id2;
     var alllist=[];
     console.log("your code is running...")
-    fs.readFile("/home/aman/Desktop/expressjs/newcourse.json",(err,data)=>{
+    fs.readFile("/newcourse.json",(err,data)=>{
         data=JSON.parse(data)
         for (var i of data){
             var exercise=i["exercises"]
@@ -173,7 +173,7 @@ app.put("/courses/:id1/exercise/:id2",(req,res)=>{
                     j["name"]=req.body.name
                     j["content"]=req.body.content
                     j["hint"]=req.body.hint
-                    fs.writeFile("/home/aman/Desktop/expressjs/newcourse.json",JSON.stringify(data,null,2))
+                    fs.writeFile("/newcourse.json",JSON.stringify(data,null,2))
                     return res.send(j)
                     console.log("success")
                 
